@@ -140,7 +140,7 @@ for datasetxxxx in 'L':
         best_epoch = -1
         
         ###train(model, device, train_loader, optimizer, 1, TRAIN_BATCH_SIZE)
-        for epoch in range(1100,2100,100):
+        for epoch in range(2000,2100,100):
             #print (epoch)
             #model_file_name = 'full_model_out2000.model'
             model_file_name = 'full_model_out'+str(epoch)+'.model'
